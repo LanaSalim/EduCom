@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const BatchFee = require('../models/BatchFee');
-const Batch = require('../models/batch');
+const Batch = require('../models/Batch');
 const FeeStructure = require('../models/FeeStructure');
 
 // Create batch fee
