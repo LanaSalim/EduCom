@@ -17,7 +17,7 @@ function App() {
 
     const loadBatches = async () => {
         try {
-            const response = await fetch('http://localhost:5000/api/batches');
+            const response = await fetch('https://educom-1.onrender.com/api/batches');
             if (response.ok) {
                 const data = await response.json();
                 setBatches(data);
@@ -29,7 +29,7 @@ function App() {
 
     const loadFeeStructures = async () => {
         try {
-            const response = await fetch('http://localhost:5000/api/fee-structures');
+            const response = await fetch('https://educom-1.onrender.com/api/fee-structures');
             if (response.ok) {
                 const data = await response.json();
                 setFeeStructuresList(data);

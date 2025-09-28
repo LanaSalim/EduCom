@@ -52,7 +52,7 @@ const FeeStructureForm = ({ onFeeStructureAdded }) => {
             };
             
             // Send to backend API
-            const response = await fetch('http://localhost:5000/api/fee-structures', {
+            const response = await fetch('https://educom-1.onrender.com/api/fee-structures', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

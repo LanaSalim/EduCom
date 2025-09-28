@@ -30,7 +30,7 @@ const BatchDetailsForm = ({ onBatchCreated }) => {
             };
             
             // Send to backend API
-            const response = await fetch('http://localhost:5000/api/batches', {
+            const response = await fetch('https://educom-1.onrender.com/api/batches', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

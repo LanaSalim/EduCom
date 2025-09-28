@@ -107,7 +107,7 @@ const BatchFeeCalculator = ({ batches, feeStructures }) => {
                 finalFee: calculatedFees.finalFee
             };
 
-            const response = await fetch('http://localhost:5000/api/batch-fees', {
+            const response = await fetch('https://educom-1.onrender.com/api/batch-fees', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
